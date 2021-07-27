@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy Page</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <a name="top"></a>
+
+    <div style="background:rgb(162, 198, 231) !important" class="jumbotron jumbotron-fluid">
+        <div style="color:white" class="container">
+            <center>
+                <h1 class="display-4">ProLeague</h1>
+                <p class="lead">The best place to improve your gameplay!
+                </p>
+            </center>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ProLeague</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#recommended">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popular">Coaching</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Affiliate Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.mwave.com.au/">Mwave</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.amazon.com.au/">Amazon</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.twitch.tv/">Twitch</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popular">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popular">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <h2 class="mb-0">Welcome to Proleague!</h2>
+        <br>
+        <p><strong><em>Proleague</em></strong> is a League of Legends coaching platform for players improve.    
+            Proleague offers a variety of methods for players to improve including one-on-one coaching and team training
+            and even master classes. Select a session to find out more!</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="assets/notepad.png" alt="notepad" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Choose a session</h4>
+                            <p class="card-text">Skills assessments, one-on-one coaching and team training and master
+                                classes</p>
+                            <a href="https://www.youtube.com/" class="btn btn-primary">Learn now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="assets/divisionscaled.png" alt="divisionscaled" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Choose a division</h4>
+                            <p class="card-text">Find a coach that's suitable for your skill level. We offer coaching for all levels of skill!</p>
+                            <a href="https://www.youtube.com/" class="btn btn-primary">Learn now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <a name="popular">
+            <h2>Most popular games</h2>
+        </a>
+        <p>Don't know which games to get? Take a look at the most popular games in the past 30 days.</p>
+
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Course type</th>
+                    <th scope="col">Goal</th>
+                    <th scope="col"><a href="#price" data-toggle="tooltip" title="(please visit our
+                        store page for specifics on our pricing)">Price</a></th>
+                    <th scope="col">Division</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Master class</th>
+                    <td>Challenger</td>
+                    <td>$44.99/session</td>
+                    <td>Master</td>
+                </tr>
+                <tr>
+                    <th scope="row">Basics bootcamp</th>
+                    <td>Gold</td>
+                    <td>$19.95/session</td>
+                    <td>Any</td>
+                </tr>
+                <tr>
+                    <th scope="row">One-on-one coaching</th>
+                    <td>Any</td>
+                    <td>Variable</td>
+                    <td>Any</td>
+            </tbody>
+        </table>
+
+        <p class="text-right"><a class="nav-link active" href="#top">Top</a></p>
+
+
+        <h4>Find out more</h4>
+
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#details">More
+            details</button>
+
+        <div class="details">
+
+            <hr class="rounded">
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div id="details" class="collapse">
+                        <h5>Get to know us</h5>
+                        <hr class="solid">
+                        <p><a href="#top">About Us</a></p>
+                        <p><a href="#top">Contact Information</a></p>
+                        <p><a href="#top">Store Locations</a></p>
+                        <p><a href="#top">Careers</a></p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div id="details" class="collapse">
+                        <h5>Shopping</h5>
+                        <hr class="solid">
+                        <p><a href="#top">Special & Latest Offers</a></p>
+                        <p><a href="#top">Gift Cards</a></p>
+                        <p><a href="#top">Wishlists</a></p>
+                        <p><a href="#top">Payment methods</a></p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div id="details" class="collapse">
+                        <h5>Legal</h5>
+                        <hr class="solid">
+                        <p><a href="#top">Terms and Conditions</a></p>
+                        <p><a href="#top">Privacy and Security</a></p>
+                        <p><a href="#top">Refund Policy</a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
